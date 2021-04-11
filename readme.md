@@ -1,4 +1,9 @@
 <h1>Community based Textrank Graph</h1>
+
+
+![ezgif-7-f53573466600](https://user-images.githubusercontent.com/68010286/114313329-156b7a00-9b31-11eb-82ba-6c25a904e5f6.gif)
+
+
 The core of this project: <br>
 1. Method textrankGraph() must be implemented after communityGraph() method and textrank_keyword() method. <br>
 2. It takes one mainkeyword tuple which formed like: ('bars', 1.8823393131581336). <br>
