@@ -14,7 +14,7 @@ def counter_draw(counter, wordlist):
     return cnt_draw
 
 
-def initialGraph(cnt_draw,wordlist):
+def initialGraph(cnt_draw):
     G = nx.Graph() #undirected
     G.add_weighted_edges_from(cnt_draw) #automatically create nodes as words. no overlapped edges.
     return G
@@ -93,6 +93,6 @@ def drawgraph(G, cmap = "Blues", nodesize = 350, graphtype = None, savepath=None
         plt.show()
 
     if savepath != None:
-        plt.savefig(savepath,  bbox_inches ='tight')
+        plt.savefig("graph_test/"+savepath,  bbox_inches ='tight')
         plt.close()
         
